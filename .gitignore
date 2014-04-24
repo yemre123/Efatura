@@ -1,0 +1,7 @@
+*.dll
+*.rar
+*.exe
+*.pdb
+*.xrar
+.svn/
+obj/

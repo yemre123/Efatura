@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UBLExtensions xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <UBLExtension>
+      <ExtensionContent><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature_gib.IDType">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference Id="Signature_gib.IDType-ref0" URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>rKSflUUWxJ659PwidNmBXRzCS0tA0QQW2vfa1zUwNz4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature_gib.IDType-signedprops">
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>DR+yfP45CWBwmpu6sPJO9F8+pFr5gP9qvNHRuAPITkQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="Signature_gib.IDType-sigvalue">
+hC+oOK5Qq2daRQWYBgiWz9mJRJcejLdU0Pi8uiFo7aKJGjCV7Ao3ZcLtb8UAoPvQvPVo2hCQWGFV
+SWnF4XwNCf0i6CRfI387I5z+JCayhs1m4eOY1ir9k40UdMDWdmtr6RX0nsPzmAQW6F8X/Om3gzmu
+WwB43AAKU4/lYwRssuDo/IA0ZR4ZpM4KdKuO3ZVAfy8WFzK7qRE0ltqEeVgvP/YPpIn92Pz480a3
+xF0Sw6lBBoWJYGLuSSCSxDN5vJyLcQHJ/auwdDoRmbeoAAmx5ciHKUVJFkGe8ie5Z1YEGc9dIOQt
+84byURl/GQDgBTgIVJaPkg5U534C7qXko9/03w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGDDCCBPSgAwIBAgIIALzXvAkArJ0wDQYJKoZIhvcNAQELBQAwXDELMAkGA1UEBhMCVFIxTTBL
+BgNVBAMMRE1hbGkgTcO8aMO8ciBFbGVrdHJvbmlrIFNlcnRpZmlrYSBIaXptZXQgU2HEn2xhecSx
+Y8Sxc8SxIC0gU8O8csO8bSAxMB4XDTEzMTEyNzA4MTc0NloXDTE2MTEyNjA4MTc0NlowgbIxEzAR
+BgNVBAUTCjQ4NDA4NDcyMTExDzANBgNVBAsMBklaSUJJWjE0MDIGA1UEAwwrxLBaxLBCxLBaIELE
+sEzEsMWexLBNIFRFS05PTE9KxLBMRVLEsCBBLsWeLjEzMDEGA1UECgwqxLBaxLBCxLBaIELEsEzE
+sMWexLBNIFRFS05PTE9KxLBMRVLEsCBBLsWeMRIwEAYDVQQHDAnEsFNUQU5CVUwxCzAJBgNVBAYT
+AlRSMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvbNtZi3cTDHYd6TMpo3YIn4UUK6l
+6UkIN62LWGhvGF9hYGInwJNyhdYx0PpBkIf7Urz/V7fjKB9LwIjDWE0mFn66IPO5G65Yc/7USxeN
+qIrHx76u5Qgl9bKrb7XelTUVCtD9wNvf9lWwffS1175CCqHrx0Q+TGJ/RdWJBdNIrF2nvuLVNuPR
+qd6d1rVI1TtRrQ+cMHlbj/HMTIlZF/xuDwQAL2r39bIO6qEpF3GwSldPnq3cn5dlNQh/5L06sp88
+ph9nAk2SyiUkYWomDHqCyOPLW8g8AEQfA+MxAuPylyWsESrZV8HPLcl/cvApcgAbsLfP0KXdpDXU
+AET+v4bVYQIDAQABo4ICeTCCAnUwHwYDVR0jBBgwFoAURiCpUxsoDByu8ihRg7MevvJTFHwwHQYD
+VR0OBBYEFG7G5cYXFPfW6toXj3zdbdIR+9oGMA4GA1UdDwEB/wQEAwIHgDCCATMGA1UdIASCASow
+ggEmMIIBIgYLYIYYAQIBAQUHBAEwggERMCoGCCsGAQUFBwIBFh5odHRwOi8vZGVwby5rYW11c20u
+Z292LnRyL2lsa2UwgeIGCCsGAQUFBwICMIHVHoHSAEIAdQAgAHMAZQByAHQAaQBmAGkAawBhACAA
+aQBsAGUAIABpAGwAZwBpAGwAaQAgAHMAZQByAHQAaQBmAGkAawBhACAAdQB5AGcAdQBsAGEAbQBh
+ACAAZQBzAGEAcwBsAGEAcgExAG4BMQAgAG8AawB1AG0AYQBrACAAaQDnAGkAbgAgAGIAZQBsAGkA
+cgB0AGkAbABlAG4AIAB3AGUAYgAgAHMAaQB0AGUAcwBpAG4AaQAgAHoAaQB5AGEAcgBlAHQAIABl
+AGQAaQBuAGkAegAuMAwGA1UdEwEB/wQCMAAwFgYDVR0lBA8wDQYLYIYYAQIBAQUHMgEwQQYDVR0f
+BDowODA2oDSgMoYwaHR0cDovL2RlcG8ua2FtdXNtLmdvdi50ci9rdXJ1bXNhbC9tbWVzaHMtczEu
+Y3JsMIGCBggrBgEFBQcBAQR2MHQwPAYIKwYBBQUHMAKGMGh0dHA6Ly9kZXBvLmthbXVzbS5nb3Yu
+dHIva3VydW1zYWwvbW1lc2hzLXMxLmNydDA0BggrBgEFBQcwAYYoaHR0cDovL2Npc2R1cG1tczEu
+a3VydW1zYWwua2FtdXNtLmdvdi50cjANBgkqhkiG9w0BAQsFAAOCAQEAIwqBAcaIJ71hBdOuvb5O
+Ta1ifdQnCGgp9sT3bDdpnsS4JUQZwGH/NLxq3C7quONQwsYxk7GFVAsqmlWLb4B0CLzY6SH977qK
+NkjIR6ix6VTXHxVJ+Qw7Lsc+SazEXQZPQH7ko+SdVAvw9Z7ovbnv13X9/zF3nBu0MdxzjMiZDZRu
+BLGqplS19p3x3VUDaMdPLuKOWBpz9cdHOiC5Yju4WSM476zdzwxyEh+j0JSgyRYiNLQj+rHx9fAA
+QJabyZaDUMPOX8diVkQ2dkiQRW2XdtBeQ2y1e/yHeWI4NN9VChDhbCLcQA1u690rHQqutDo+QpBb
+9MSxvYu+0nuLE5oujQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#Signature_gib.IDType"><xades:SignedProperties Id="Signature_gib.IDType-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2014-01-08T11:08:11.036+02:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>WgOuxbAYVwhDMUJVB3YOYxl9f76bUpAJJ2BkO3f3/eA=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Mali Mühür Elektronik Sertifika Hizmet Sağlayıcısı - Sürüm 1,C=TR</ds:X509IssuerName><ds:X509SerialNumber>53154498226465949</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Signature_gib.IDType-ref0"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></ExtensionContent>
+    </UBLExtension>
+  </UBLExtensions>
+  <UBLVersionID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2.0</UBLVersionID>
+  <CustomizationID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">TR1.0</CustomizationID>
+  <ProfileID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">TICARIFATURA</ProfileID>
+  <ID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">DIA2014000000071</ID>
+  <CopyIndicator xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">false</CopyIndicator>
+  <UUID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">42B1EFFA-8630-4121-B00C-698B4B8DCA6F</UUID>
+  <IssueDate xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2014-01-06</IssueDate>
+  <InvoiceTypeCode xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">SATIS</InvoiceTypeCode>
+  <Note xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"> SİPARİŞ NO: 406  PRATİS.NET NO: 99249-2 NOT: 0540/A-09/2013 (406)  </Note>
+  <DocumentCurrencyCode xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">TRL</DocumentCurrencyCode>
+  <LineCountNumeric xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">1</LineCountNumeric>
+  <OrderReference xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2013000000010861 ; </ID>
+    <IssueDate xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2013-12-30</IssueDate>
+    <DocumentReference>
+      <ID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0012</ID>
+      <IssueDate xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2014-01-08</IssueDate>
+    </DocumentReference>
+  </OrderReference>
+  <DespatchDocumentReference xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">531117</ID>
+    <IssueDate xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2014-01-06</IssueDate>
+  </DespatchDocumentReference>
+  <Signature xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemeID="VKN_TCKN">2950432778</ID>
+    <SignatoryParty>
+      <PartyIdentification>
+        <ID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemeID="VKN">2950432778</ID>
+      </PartyIdentification>
+      <PostalAddress>
+        <Room xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <StreetName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <BuildingName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <BuildingNumber xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <CitySubdivisionName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Esenyurt</CitySubdivisionName>
+        <CityName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">İstanbul</CityName>
+        <PostalZone xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <Region xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <Country>
+          <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Turkiye</Name>
+        </Country>
+      </PostalAddress>
+    </SignatoryParty>
+    <DigitalSignatureAttachment>
+      <ExternalReference>
+        <URI xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">#Signature_gib.IDType</URI>
+      </ExternalReference>
+    </DigitalSignatureAttachment>
+  </Signature>
+  <AccountingSupplierParty xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <Party>
+      <WebsiteURI xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">www.diasan.com.tr / İstanbul Ticaret Odası Sicil No: 629707</WebsiteURI>
+      <PartyIdentification>
+        <ID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemeID="VKN">2950432778</ID>
+      </PartyIdentification>
+      <PartyName>
+        <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">DİASAN BASIM FORM MATBAACILIK SAN. VE TİC.A.Ş.</Name>
+      </PartyName>
+      <PostalAddress>
+        <Room xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <StreetName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Akçaburgaz Mah. 1590 Sok.</StreetName>
+        <BuildingName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <BuildingNumber xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">3</BuildingNumber>
+        <CitySubdivisionName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Esenyurt</CitySubdivisionName>
+        <CityName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">İstanbul</CityName>
+        <PostalZone xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <Region xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <Country>
+          <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Turkiye</Name>
+        </Country>
+      </PostalAddress>
+      <PartyTaxScheme>
+        <TaxScheme>
+          <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Beylikdüzü</Name>
+        </TaxScheme>
+      </PartyTaxScheme>
+      <Contact>
+        <Telephone xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">+90 (212) 858 21 41</Telephone>
+        <Telefax xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <ElectronicMail xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">urn:mail:diasangb@diasan.com.tr</ElectronicMail>
+      </Contact>
+    </Party>
+  </AccountingSupplierParty>
+  <AccountingCustomerParty xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <Party>
+      <WebsiteURI xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+      <PartyIdentification>
+        <ID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemeID="VKN">0150015264</ID>
+      </PartyIdentification>
+      <PartyName>
+        <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">AKBANK T.A.Ş.</Name>
+      </PartyName>
+      <PostalAddress>
+        <Room xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <StreetName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">SABANCI CENTER LEVAZIM MD.KULE:1 - KAT:10 34330 4.LEVENT</StreetName>
+        <BuildingName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <BuildingNumber xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <CitySubdivisionName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"> Beşiktaş</CitySubdivisionName>
+        <CityName xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">İstanbul</CityName>
+        <PostalZone xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <Region xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <Country>
+          <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">TÜRKİYE</Name>
+        </Country>
+      </PostalAddress>
+      <PartyTaxScheme>
+        <TaxScheme>
+          <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">BÜYÜK MÜKELLEFLER</Name>
+        </TaxScheme>
+      </PartyTaxScheme>
+      <Contact>
+        <Telephone xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <Telefax xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+        <ElectronicMail xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">urn:mail:defaultpk@akbank.com</ElectronicMail>
+      </Contact>
+    </Party>
+  </AccountingCustomerParty>
+  <PaymentMeans xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <PaymentMeansCode xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">42</PaymentMeansCode>
+  </PaymentMeans>
+  <PaymentTerms xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <Note xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Açıklama: Bu Fatura  30 Gün Vadelidir. 1 Ay taksit ...</Note>
+  </PaymentTerms>
+  <TaxTotal xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <TaxAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">1653.9</TaxAmount>
+    <TaxSubtotal>
+      <TaxableAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">18376.65</TaxableAmount>
+      <TaxAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">3307.80</TaxAmount>
+      <Percent xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">18</Percent>
+      <TaxCategory>
+        <TaxScheme>
+          <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">KDV</Name>
+          <TaxTypeCode xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0015</TaxTypeCode>
+        </TaxScheme>
+      </TaxCategory>
+    </TaxSubtotal>
+    <TaxSubtotal>
+      <TaxableAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">3307.80</TaxableAmount>
+      <TaxAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">1653.90</TaxAmount>
+      <Percent xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">50.0</Percent>
+      <TaxCategory>
+        <TaxScheme>
+          <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">KDV TEVKİFAT</Name>
+          <TaxTypeCode xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">9015</TaxTypeCode>
+        </TaxScheme>
+      </TaxCategory>
+    </TaxSubtotal>
+  </TaxTotal>
+  <LegalMonetaryTotal xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <LineExtensionAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">18376.65</LineExtensionAmount>
+    <TaxExclusiveAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">18376.65</TaxExclusiveAmount>
+    <TaxInclusiveAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">20030.55</TaxInclusiveAmount>
+    <AllowanceTotalAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">0</AllowanceTotalAmount>
+    <PayableAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">20030.55</PayableAmount>
+  </LegalMonetaryTotal>
+  <InvoiceLine xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">1</ID>
+    <InvoicedQuantity xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" unitCode="EA">37890</InvoicedQuantity>
+    <LineExtensionAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">18376.65</LineExtensionAmount>
+    <AllowanceCharge>
+      <ChargeIndicator xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">false</ChargeIndicator>
+      <MultiplierFactorNumeric xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0</MultiplierFactorNumeric>
+      <Amount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">0</Amount>
+    </AllowanceCharge>
+    <TaxTotal>
+      <TaxAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">1653.9</TaxAmount>
+      <TaxSubtotal>
+        <TaxableAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">18376.65</TaxableAmount>
+        <TaxAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">3307.80</TaxAmount>
+        <Percent xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">18</Percent>
+        <TaxCategory>
+          <TaxScheme>
+            <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">KDV</Name>
+            <TaxTypeCode xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0015</TaxTypeCode>
+          </TaxScheme>
+        </TaxCategory>
+      </TaxSubtotal>
+      <TaxSubtotal>
+        <TaxableAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">18376.65</TaxableAmount>
+        <TaxAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">1653.90</TaxAmount>
+        <Percent xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">50.0</Percent>
+        <TaxCategory>
+          <TaxScheme>
+            <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">KDV TEVKİFAT</Name>
+            <TaxTypeCode xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">9015</TaxTypeCode>
+          </TaxScheme>
+        </TaxCategory>
+      </TaxSubtotal>
+    </TaxTotal>
+    <Item>
+      <Name xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">6"x21.5 1N 60gr.1R 0540/A GEN.AMAÇ.FİŞ DEK.MAK.TEK</Name>
+    </Item>
+    <Price>
+      <PriceAmount xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="TRL">0.485</PriceAmount>
+    </Price>
+  </InvoiceLine>
+</Invoice>
