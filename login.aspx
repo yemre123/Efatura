@@ -6,7 +6,7 @@
 <%@ Register Assembly="Ext.Net" Namespace="Ext.Net" TagPrefix="ext" %>
 
 <script runat="server">
-                              
+           //deneme                    
     protected void Button_Click(object sender, DirectEventArgs e)
     {
         string user = txtUser.Text;
